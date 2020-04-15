@@ -23,6 +23,8 @@ public class TestMovieRental extends TestMovieRental_Base {
 		movieList.add(createMovie("m1", Movie.REGULAR));
 		movieList.add(createMovie("m2", Movie.CHILDRENS));
 		testStatement(movieList, new int[]{1, 1}, new double[]{2.0, 1.5}, 2);
+		//
+
 	}
 
 	@Test
